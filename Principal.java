@@ -1,12 +1,18 @@
 //Jefferson Lima Silva ra:2601419
-public class TstMine{
 
+import java.util.List;
+import java.util.ArrayList;
+
+public class TstMine{
+	private static Leitura l = new Leitura();
+	private static MineralPrecioso precioso= new MineralPrecioso();
+	private static MineralMetalico metalico= new MineralMetalico();
+	private static MineralNaoMetalico n_metalico= new MineralNaoMetalico();
+
+	
 
 	public static void main(String arg[]){
-		Leitura l = new Leitura();
-		MineralPrecioso precioso= new MineralPrecioso();
-		MineralMetalico metalico= new MineralMetalico();
-		MineralNaoMetalico n_metalico= new MineralNaoMetalico();
+	
 
 		int flag, flag3=0;
 		boolean flag2=true;

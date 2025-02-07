@@ -1,4 +1,5 @@
 //Jefferson Lima Silva ra:2601419
+
 public abstract class Mineral{
 	private String nome;
 	private String composicao_quimica;
